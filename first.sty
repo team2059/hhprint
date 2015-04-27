@@ -1,6 +1,38 @@
 \ProvidesPackage{first}[2015/04/27]
 
 % Format FIRST with italics and registered trademark.
+% Should be used the first time FIRST is used in a headline and copy on a page.
 \newcommand{\FIRST}[0]{
   \textit{FIRST\textsuperscript{\textregistered}}
+}
+
+% Format FIRST with italics, but without the trademark.
+% Should be used each time after \FIRST
+\newcommand{\first}[0]{
+  \textit{FIRST}
+}
+
+% Full FRC name.
+\newcommand{\FRC}[0]{
+  \FIRST Robotics Competition
+}
+
+% Full FRC name without trademark.
+\newcommand{\Frc}[0]{
+  \first Robotics Competition
+}
+
+% Abbreviated FRC name with trademark.
+\newcommand{\frc}[0]{
+  FRC\textsuperscript{\textregistered}
+}
+
+% Full FLL name with both trademarks.
+\newcommand{\FLL}[0]{
+  \FIRST LEGO\textsuperscript{\textregistered} League
+}
+
+% Abbreviated FLL name with trademark.
+\newcommand{\fll}[0]{
+  FLL\textsuperscript{\textregistered}
 }
