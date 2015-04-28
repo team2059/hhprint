@@ -49,6 +49,16 @@
   \centering\Huge\fontspec{Eagle}\fontsize{1cm}{0em}\selectfont\color{white}}
 \posttitle{\end{tcolorbox}\end{center}}
 
+%% Headers %%
+\RequirePackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\fontspec{Eagle}The Hitchhikers \rightmark }
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+
 \RequirePackage{titlesec}
 
 %%% Section page %%%
